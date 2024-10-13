@@ -1,18 +1,22 @@
-[
-  {
-    "id": 1,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
+{
+  "sistema": {
+    "inicio": {
+      "nome": "Sistema de Reconhecimento",
+      "versao": "1.0",
+      "ocultar_topicos": true
+    },
+    "topicos": [
+      {
+        "id": 1,
+        "titulo": "Tópico Visível",
+        "descricao": "Este tópico está visível para todos."
+      },
+      {
+        "id": 2,
+        "titulo": "Tópico Oculto",
+        "descricao": "Este tópico está oculto.",
+        "visibilidade": "oculto"
       }
-    }
+    ]
   }
-]    
+}
