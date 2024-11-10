@@ -49,6 +49,36 @@ function Botao(numero) {
 }
 </SCRIPT>
 <style type="text/css">
+          /* Estilo para a barra de menus */
+        .menu-bar {
+            background-color: #333; /* Cor de fundo da barra */
+            padding: 10px 0; /* Espaçamento vertical */
+        }
+
+        .menu-bar ul {
+            list-style-type: none; /* Remove marcadores da lista */
+            margin: 0;
+            padding: 0;
+            display: flex; /* Exibe os itens lado a lado */
+            justify-content: center; /* Centraliza o menu */
+        }
+
+        .menu-bar li {
+            margin: 0 15px; /* Espaçamento entre os itens */
+        }
+
+        .menu-bar a {
+            color: white; /* Cor do texto */
+            text-decoration: none; /* Remove sublinhado */
+            font-size: 16px;
+            padding: 5px 10px;
+            transition: background-color 0.3s; /* Transição suave */
+        }
+
+        .menu-bar a:hover {
+            background-color: #555; /* Cor ao passar o mouse */
+            border-radius: 5px;
+        }
     div > h2{
         color: #00979C;
     }
@@ -165,7 +195,16 @@ h1 {
   </head>
   <BODY>
   <center>
-   
+    <header>
+      <nav class="menu-bar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header> 
         <div class="header"><div style="padding: 5px;">Projeto inicial para ESP8266 Francismar dos Santos</div></div>
         <h1>PORTAS EM FUN&Ccedil;&Atilde;O DIGITAL</h1>
         <img src="https://impressora-1.francismardos.repl.co/images/sws/progress-bar_ani.gif">
