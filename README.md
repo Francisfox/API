@@ -1,4 +1,4 @@
 # API
-[acesso a webpage](https://francisfox.github.io/API/)
+[acesso a webpage(Ctrl+Clique para abrir em nova aba)](https://francisfox.github.io/API/)
 <br>
-[Acesse a API](https://raw.githubusercontent.com/Francisfox/API/refs/heads/main/dados.json)
+[Acesse o JSON (Ctrl+Clique para abrir em nova aba)](https://raw.githubusercontent.com/Francisfox/API/refs/heads/main/dados.json)
